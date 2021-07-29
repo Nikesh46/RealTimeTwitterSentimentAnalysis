@@ -1,5 +1,17 @@
 Real Time Twitter Sentiment Analysis using Kafka and ELK Stack 
 
+The Goal of the project is to Connect to Twitter API and continuously stream tweets of particular search string and analyze the sentiment of these tweets using Hugging Face Transformers Pipeline.
+Send the output of Sentiment Analyse to Kafka and index this data into Elasticsearch by a pipeline Kafka -> Logstash -> Elasticsearch.
+Finally view the results and analyse real time sentiment for a search string on Kibana.
+
+Technologies and Resources Employed:
+1. Twitter API
+2. Transformers - Hugging Face
+3. Kafka 
+4. Logstash
+5. Elasticsearch
+6. Kibana
+
 
 Steps to run : 
 
